@@ -1,0 +1,184 @@
+#about-me #contact {
+  height: 300px;
+}
+
+#portfolio {
+  height: 1250px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1200px;
+}
+
+.half-width {
+  float: left;
+  padding-top: 20px;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** IMAGES *****/
+.images {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.work-images {
+  padding-left: 450px;
+}
+
+/***** HEADER *****/
+header {
+  background: url(../img/hero-image.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+h1 {
+  color: #bdbf09;
+  font-family: Cairo, Helvetica, serif;
+  font-size: 36pt;
+  padding-top: 225px;
+  text-align: center;
+}
+
+h2 {
+  color: #095256;
+  font-size: 24pt;
+  text-align: center;
+  font-family: Noto+Sans, Helvetica, serif;
+}
+
+/***** NAVIGATION *****/
+
+nav ul {
+  list-style-type: none;
+  font-size: 30px;
+  font-family: Cairo, Helvetica, serif;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
+li {
+  text-align: center;
+  display: inline;
+  float: right;
+}
+
+a {
+  padding: 4px;
+  color: #006600;
+  text-decoration: underline;
+}
+
+a active {
+  color: green;
+}
+
+/***** PORTFOLIO *****/
+h3 {
+  color: #095256;
+  font-size: 22pt;
+  padding-top: 90px;
+  text-align: left;
+}
+
+p {
+  color: #095256;
+  font-size: 19pt;
+  font-family: Palanquin, Helvetica, serif;
+  text-align: left;
+}
+
+#header-two {
+  padding-top: 250px;
+}
+
+#header-three {
+  padding-top: 200px;
+}
+
+/***** ABOUT ME *****/
+#about-me {
+  background-color: #D6D5C9;
+  overflow: hidden;
+  padding: 30px 0px 30px 0px;
+}
+
+h4 {
+  color: white;
+  font-size: 22pt;
+  line-height: 10px;
+  text-align: center;
+}
+
+#p2 {
+  color: white;
+  font-size: 19pt;
+  font-family: Palanquin, Helvetica, serif;
+}
+
+/***** CONTACT *****/
+#contact {
+  background-color: #443850;
+  padding: 30px 0px 30px 0px;
+}
+
+.p3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#socialmedia-header {
+  color: #ffffff;
+}
+
+/***** FOOTER *****/
+#footer {
+  font-style: italic;
+  height: 5px;
+}
+
+h6{
+  text-align: center;
+  line-height: 2px;
+}
+
+#icons {
+  text-align: center;
+  line-height: 15px;
+}
+
+/***** WORK-HEADER *****/
+#work-header {
+  background: url("../img/banner-books.jpg") no-repeat scroll 0 0;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  margin-top: -50px;
+}
+
+/***** WORK ADDITIONAL SITES *****/
+.work-title {
+  margin-top: -80px;
+  text-align: center;
+}
+
+.work-p {
+  text-align: center;
+  margin-top: -40px;
+}
